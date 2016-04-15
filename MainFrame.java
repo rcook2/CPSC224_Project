@@ -1,4 +1,4 @@
-//package project5;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -197,25 +197,7 @@ public class MainFrame extends JFrame implements ActionListener{
 			buttons[i].setEnabled(false);
 	}
 	
-	/*public void music(URL audio)
-	{
-		try{
-			AudioInputStream audioin = AudioSystem.getAudioInputStream(audio);
-			Clip clip = AudioSystem.getClip();
-			clip.open(audioin);
-			clip.loop(Clip.LOOP_CONTINUOUSLY);
-		}
-		catch(UnsupportedAudioFileException e){
-			e.printStackTrace();
-		}
-		catch(IOException e){
-			e.printStackTrace();
-		}
-		catch(LineUnavailableException e){
-			e.printStackTrace();
-		}
-	}
-	*/
+
 	private void setComponetNames(){
 		response1.setName("button1");
 		response2.setName("button2");
